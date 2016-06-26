@@ -1,0 +1,133 @@
+8
+
+dir
+3
+https://user-20140323fh:8443/svn/myproject/bluetooth/Copy%20of%20bluetooth/bin
+https://user-20140323fh:8443/svn/myproject
+
+
+
+2015-12-11T02:47:58.127607Z
+3
+wangmeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+591414af-7659-e94c-8114-82dd42a07ea2
+
+AndroidManifest.xml
+file
+15
+
+
+delete
+2016-01-10T12:41:10.527000Z
+e1230fe3673dabbc31507838dbd242a1
+2016-01-13T06:24:32.019705Z
+15
+wangmeng
+
+Copy of bluetooth.apk
+file
+15
+https://user-20140323fh:8443/svn/myproject/bluetooth/Copy%20of%20bluetooth/bin/Copy%20of%20bluetooth.apk
+
+delete
+2016-01-05T05:43:52.486000Z
+c729bc5e0a6ed79791fd18e00b38f7ef
+2016-01-13T06:24:32.019705Z
+15
+wangmeng
+has-props
+
+R.txt
+file
+15
+
+
+delete
+2016-01-13T06:23:51.897000Z
+7dc8aa55fbe2526d50e62471cf6e1f19
+2016-01-13T06:24:32.019705Z
+15
+wangmeng
+
+bluetooth.apk
+file
+
+
+
+delete
+2015-11-25T05:53:06.086000Z
+955b6cc6d3433338ad8b5002fe28f3b5
+2015-12-11T02:47:58.127607Z
+3
+wangmeng
+has-props
+
+classes
+dir
+
+classes.dex
+file
+15
+
+
+delete
+2016-01-05T05:43:51.976000Z
+780c648c7ddcd395b98b1772d94360aa
+2016-01-13T06:24:32.019705Z
+15
+wangmeng
+has-props
+
+dexedLibs
+dir
+
+
+
+delete
+
+jarlist.cache
+file
+
+
+
+delete
+2015-12-11T02:42:03.588000Z
+cb107b0b2fbd7bd0dcd3477b7a8fc342
+2015-12-11T02:47:58.127607Z
+3
+wangmeng
+
+res
+dir
+
+
+
+delete
+
+resources.ap_
+file
+15
+
+
+delete
+2016-01-05T05:43:50.703000Z
+66d4edd2852d82af458951d354e6d7a6
+2016-01-13T06:24:32.019705Z
+15
+wangmeng
+has-props
+

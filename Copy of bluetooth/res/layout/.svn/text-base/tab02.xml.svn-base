@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCC"
+    android:orientation="vertical" >
+
+    <!-- 1:需要控制的都有哪些东西? -->
+    <!-- 2:大致的布局是怎样的? -->
+    <!-- 3:需要哪些数据作为支撑? -->
+
+    <RelativeLayout
+        android:id="@+id/id_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_back_2"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/id_closeclock"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/id_openyule"
+            android:layout_below="@+id/id_closeyule"
+            android:layout_marginTop="22dp"
+            android:background="@+drawable/shape"
+            android:text="关闭" />
+
+        <Button
+            android:id="@+id/id_openyule"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="32dp"
+            android:background="@+drawable/shapebutton"
+            android:text="报警"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/id_closelight"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/id_openyule"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="@+drawable/shapebutton"
+            android:text="娱乐" />
+
+        <Button
+            android:id="@+id/id_closeyule"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/id_closelight"
+            android:layout_below="@+id/id_openlight"
+            android:layout_marginTop="31dp"
+            android:background="@+drawable/shape"
+            android:text="关闭" />
+
+        <Button
+            android:id="@+id/id_openlight"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="27dp"
+            android:background="@+drawable/shapebutton"
+            android:text="灯光" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/id_closeclock"
+            android:layout_alignBottom="@+id/id_closeclock"
+            android:layout_alignLeft="@+id/id_openlight"
+            android:background="@+drawable/shape"
+            android:text="关闭" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_picture_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_2_back"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温度曲线"
+            android:textColor="#ff44ff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_linechart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.52"
+        android:background="#FF0000"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

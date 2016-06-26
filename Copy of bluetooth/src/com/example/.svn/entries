@@ -1,0 +1,41 @@
+8
+
+dir
+3
+https://user-20140323fh:8443/svn/myproject/bluetooth/Copy%20of%20bluetooth/src/com/example
+https://user-20140323fh:8443/svn/myproject
+
+
+
+2015-12-11T02:47:58.127607Z
+3
+wangmeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+591414af-7659-e94c-8114-82dd42a07ea2
+
+bluetooth
+dir
+
+service
+dir
+
+user
+dir
+
+
+
+add
+
